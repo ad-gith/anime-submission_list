@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dicoding.animesubmission.DetailActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img_item_photo"
+        android:layout_marginBottom="4dp"/>
+    <TextView
+        style="@style/TextContent.Small.Red"
+        android:layout_toRightOf="@id/img_item_photo"
+        android:id="@+id/tv_item_name"
+        android:text="@string/name"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        style="@style/TextContent.Small"
+        android:layout_below="@id/tv_item_name"
+        android:layout_toRightOf="@id/img_item_photo"
+        android:id="@+id/tv_item_remarks"
+        android:text="@string/remarks"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        style="@style/TextContent.Black"
+        android:id="@+id/tv_detail_received"
+        android:layout_below="@id/img_item_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Received"/>
+</RelativeLayout>

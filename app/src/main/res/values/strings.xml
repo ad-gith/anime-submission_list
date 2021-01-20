@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AnimeSubmission</string>
+    <string name="name">Name</string>
+    <string name="remarks">Remarks</string>
+    <string name="share">Share</string>
+    <string name="detail">Detail</string>
+</resources>
